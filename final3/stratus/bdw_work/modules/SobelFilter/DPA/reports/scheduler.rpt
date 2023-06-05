@@ -1,0 +1,301 @@
+Scheduler report for : o_avg_m_req_gen_prev_trig_reg                                                              
+----------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req.m_prev_t  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_trig_r  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_prev_t  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_m_req_gen_active                                                                     
+---------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req.m_prev_t  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_trig_r  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.gen_acti  4 (3:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_req.active.o  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_gen_vld                                                                              
+------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req_active.o  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_unacked_req.  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.gen_vld         4 (3:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.vld.o_avg.gen_  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_m_req_gen_next_trig_reg                                                              
+----------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req.m_trig_r  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.gen_next  4 (3:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_req.m_next_t  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_unvalidated_req                                                                  
+------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.m_unvalidated_  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb                 7 (6:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_unvalidated_  8 (7:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_req_0.i  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.vld.i_rgb.gen_  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_unvalidate  9 (8:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_unvalidated_  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_do_stall_reg_full                                                                
+--------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.m_stall_reg_fu  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_stalling.i_r  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_vali  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_do_stall_r  8 (7:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_stall_reg_fu  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : do_filter                                                                                  
+--------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+t                     1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:12 -> c:14                
+                                                                                                                  
+p                     1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:12 -> c:14                
+                                                                                                                  
+i_rgb.m_busy_req_0.r  3 (2:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_stalling.res  3 (2:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_trig_r  3 (2:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+t                     6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:12 -> c:35                
+                                                                                                                  
+shift_reg             6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:72,c:14            
+                                                                                                                  
+                      7 (5:TRUE)       --              FALSE  f:../SobelFilter.cpp,l:70,c:36                      
+                                                                                                                  
+shift_reg             7 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:72,c:14            
+                                                                                                                  
+p                     10 (8:FALSE)     --              FALSE  ../SobelFilter.cpp,l:75,c:12 -> c:35                
+                                                                                                                  
+shift_reg_H           10 (8:FALSE)     --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:77,c:16            
+                                                                                                                  
+                      11 (8:TRUE)      --              FALSE  f:../SobelFilter.cpp,l:75,c:36                      
+                                                                                                                  
+shift_reg_H           11 (8:TRUE)      --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:77,c:16            
+                                                                                                                  
+i                     14 (11:FALSE)    --              FALSE  ../SobelFilter.cpp,l:86,c:14 -> c:16                
+                                                                                                                  
+filtered_output       14 (11:FALSE)    --              FALSE  ../SobelFilter.cpp,l:55,c:7 -> l:84,c:5             
+                                                                                                                  
+shift_reg             14 (11:FALSE)    --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:94,c:16            
+                                                                                                                  
+shift_reg_H           14 (11:FALSE)    --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:110,c:16           
+                                                                                                                  
+filter_coeffs         14 (11:FALSE)    --              FALSE  ../SobelFilter.cpp,l:50,c:7 -> l:80,c:3             
+                                                                                                                  
+filter_coeffs_H       14 (11:FALSE)    --              FALSE  ../SobelFilter.cpp,l:58,c:7 -> l:80,c:3             
+                                                                                                                  
+shift_reg             15 (12:FALSE)    --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:88,c:16            
+                                                                                                                  
+filtered_output       15 (12:FALSE)    --              FALSE  ../SobelFilter.cpp,l:55,c:7 -> l:89,c:7             
+                                                                                                                  
+i                     15 (12:FALSE)    --              FALSE  ../SobelFilter.cpp,l:86,c:14 -> c:42                
+                                                                                                                  
+filter_coeffs         15 (12:FALSE)    --              FALSE  ../SobelFilter.cpp,l:50,c:7 -> l:89,c:54            
+                                                                                                                  
+f:../SobelFilter.cpp  15 (12:FALSE)    --              FALSE  & c:34                                              
+                                                                                                                  
+shift_reg             16 (12:TRUE)     --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:88,c:31            
+                                                                                                                  
+                      17 (12:TRUE)     --              FALSE  f:../SobelFilter.cpp,l:86,c:40                      
+                                                                                                                  
+shift_reg             17 (12:TRUE)     --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:88,c:16            
+                                                                                                                  
+filter_coeffs         18 (12:TRUE)     --              FALSE  ../SobelFilter.cpp,l:50,c:7 -> l:89,c:54            
+                                                                                                                  
+f:../SobelFilter.cpp  18 (12:TRUE)     --              FALSE  & c:35                                              
+                                                                                                                  
+shift_reg             18 (12:TRUE)     --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:89,c:35            
+                                                                                                                  
+f:../SobelFilter.cpp  18 (12:TRUE)     --              FALSE  & c:23                                              
+                                                                                                                  
+i_rgb.m_busy_req_0.g  20 (14:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb                 22 (16:TRUE)     --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+do_filter::get        22 (16:TRUE)     --              FALSE  ../SobelFilter.cpp,l:38,c:19 mapped                 
+                                                                                                                  
+i_rgb.data.get::nb_g  23 (17:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_req_0.g  23 (17:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+shift_reg             23 (17:FALSE)    --              TRUE   ../SobelFilter.cpp,l:54,c:7 -> l:94,c:16            
+                                                                                                                  
+filtered_output_H     24 (18:TRUE)     --              FALSE  ../SobelFilter.cpp,l:62,c:7 -> l:103,c:5            
+                                                                                                                  
+q                     24 (18:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:14 -> c:16               
+                                                                                                                  
+shift_reg_H           26 (20:FALSE)    --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:107,c:18           
+                                                                                                                  
+filtered_output_H     26 (20:FALSE)    --              FALSE  ../SobelFilter.cpp,l:62,c:7 -> l:108,c:7            
+                                                                                                                  
+q                     26 (20:FALSE)    --              FALSE  ../SobelFilter.cpp,l:105,c:14 -> c:42               
+                                                                                                                  
+filter_coeffs_H       26 (20:FALSE)    --              FALSE  ../SobelFilter.cpp,l:58,c:7 -> l:108,c:60           
+                                                                                                                  
+f:../SobelFilter.cpp  26 (20:FALSE)    --              FALSE  & c:38                                              
+                                                                                                                  
+shift_reg_H           27 (20:TRUE)     --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:107,c:35           
+                                                                                                                  
+                      27 (20:TRUE)     --              FALSE  f:../SobelFilter.cpp,l:105,c:40                     
+                                                                                                                  
+f:../SobelFilter.cpp  28 (20:TRUE)     --              FALSE  & c:35                                              
+                                                                                                                  
+shift_reg_H           28 (20:TRUE)     --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:107,c:18           
+                                                                                                                  
+filter_coeffs_H       29 (20:TRUE)     --              FALSE  ../SobelFilter.cpp,l:58,c:7 -> l:108,c:60           
+                                                                                                                  
+shift_reg_H           29 (20:TRUE)     --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:108,c:39           
+                                                                                                                  
+f:../SobelFilter.cpp  29 (20:TRUE)     --              FALSE  & c:25                                              
+                                                                                                                  
+shift_reg             31 (22:FALSE)    --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:100,c:33           
+                                                                                                                  
+                      31 (22:FALSE)    --              FALSE  f:../SobelFilter.cpp,l:100,c:21                     
+                                                                                                                  
+shift_reg_H           32 (22:TRUE)     --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:110,c:16           
+                                                                                                                  
+shift_reg_H           33 (22:TRUE)     --              FALSE  ../SobelFilter.cpp,l:61,c:7 -> l:111,c:37           
+                                                                                                                  
+                      33 (22:TRUE)     --              FALSE  f:../SobelFilter.cpp,l:111,c:23                     
+                                                                                                                  
+o_avg.data.put::nb_p  34 (23:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg                 34 (23:FALSE)    --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_req.m_trig_r  34 (23:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg                 36 (25:TRUE)     --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+do_filter::put        36 (25:TRUE)     --              FALSE  ../SobelFilter.cpp,l:38,c:19 mapped                 
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_gen_stalling                                                                         
+-----------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.vld.o_avg.gen_  4 (3:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.busy.o_avg.gen  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.gen_stalling    5 (4:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_stalling.o_a  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_gen_unacked_req                                                                      
+--------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_unacked_req.  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_stalling.o_a  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_unacked_req.  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_do_reg_vld                                                                       
+-------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.m_vld_reg.i_rg  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb                 7 (6:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_vld_reg.i_rg  8 (7:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_interna  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.vld.i_rgb.gen_  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_do_reg_vld  9 (8:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_vld_reg.i_rg  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_busy                                                                             
+-------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.vld.i_rgb.gen_  4 (3:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_unvalidated_  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_req_0.i  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_inva  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_busy        6 (5:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.gen_busy        6 (5:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_data_is_inva  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_interna  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.busy.i_rgb.gen  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_vali  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_inva  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  

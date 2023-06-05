@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<tool_log>
+	<tool_kind>LogicSimulator</tool_kind>
+	<tool_name>NC Verilog</tool_name>
+	<hostname>ws33</hostname>
+	<uname>Linux 3.10.0-1160.36.2.el7.x86_64 x86_64</uname>
+	<cwd>/home/m110/m110061606/ee6470/final3/stratus</cwd>
+	<user>m110061606</user>
+	<gen_time>Wed May 31 05:29:47 2023</gen_time>
+	<module_inst>
+		<module_name>SobelFilter</module_name>
+		<inst_path>sys.sobelfilter</inst_path>
+		<representation>RTL_V</representation>
+	</module_inst>
+	<latency>
+		<value>271</value>
+		<module_name>filter</module_name>
+		<name>average_latency</name>
+	</latency>
+	<end_time>Wed May 31 05:30:19 2023</end_time>
+	<passed>1</passed>
+</tool_log>

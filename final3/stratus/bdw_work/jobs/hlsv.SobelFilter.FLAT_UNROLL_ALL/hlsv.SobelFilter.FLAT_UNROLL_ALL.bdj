@@ -1,0 +1,12 @@
+20675		// ppid
+20678		// pid
+ws33	// host name
+bdw_work/trace/hlsv.SobelFilter.FLAT_UNROLL_ALL.trace		// log file
+2		// state ( 0=unrun 1=running 2=success 3=failed 4=unknown 5=queued
+0		// exit status
+0		// quiet
+0		// background
+1685482278	// start time: Wed May 31 05:31:18 2023
+1685482279	// end time:   Wed May 31 05:31:19 2023
+make --no-print-directory -f Makefile CWBExec_hlsv=1 hlsv_SobelFilter_FLAT_UNROLL_ALL
+

@@ -1,0 +1,737 @@
+Scheduler report for : o_avg_m_req_gen_prev_trig_reg                                                              
+----------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req.m_prev_t  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_trig_r  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_prev_t  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_m_req_gen_active                                                                     
+---------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req.m_prev_t  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_trig_r  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.gen_acti  4 (3:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_req.active.o  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_gen_vld                                                                              
+------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req_active.o  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_unacked_req.  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.gen_vld         4 (3:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.vld.o_avg.gen_  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_m_req_gen_next_trig_reg                                                              
+----------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_req.m_trig_r  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.gen_next  4 (3:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_req.m_next_t  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_unvalidated_req                                                                  
+------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.m_unvalidated_  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb                 7 (6:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_unvalidated_  8 (7:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_req_0.i  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.vld.i_rgb.gen_  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_unvalidate  9 (8:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_unvalidated_  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_do_stall_reg_full                                                                
+--------------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.m_stall_reg_fu  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_stalling.i_r  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_vali  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_do_stall_r  8 (7:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_stall_reg_fu  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : do_filter                                                                                  
+--------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+[25].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[28].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[24].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[26].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[27].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[29].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[22].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[26].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[21].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[25].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[20].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[19].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[23].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[18].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[21].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[22].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[17].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[16].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[18].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[20].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[15].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[17].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[14].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[16].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[13].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[15].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[12].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[14].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[11].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[13].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[10].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[12].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[9].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[11].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[8].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[10].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[7].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[6].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[7].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[8].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[5].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[4].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[6].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[3].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[3].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[5].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[1].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[2].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[0].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[1].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[0].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[2].shift_reg         1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[23].shift_reg        1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:70,c:3                         
+                                                                                                                  
+[4].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[9].shift_reg_H       1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[19].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+[24].shift_reg_H      1 (0:FALSE)      --              FALSE  ../SobelFilter.cpp,l:75,c:3                         
+                                                                                                                  
+i_rgb.m_busy_req_0.r  3 (2:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_stalling.res  3 (2:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_req.m_trig_r  3 (2:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+shift_reg[0]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:0) -> l:94,c:16  
+                                                                                                                  
+shift_reg[1]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:1) -> l:88,c:16  
+                                                                                                                  
+shift_reg[2]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:2) -> l:88,c:16  
+                                                                                                                  
+shift_reg[3]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:3) -> l:88,c:16  
+                                                                                                                  
+shift_reg[4]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:4) -> l:88,c:16  
+                                                                                                                  
+shift_reg[5]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:5) -> l:88,c:16  
+                                                                                                                  
+shift_reg[6]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:6) -> l:88,c:16  
+                                                                                                                  
+shift_reg[7]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:7) -> l:88,c:16  
+                                                                                                                  
+shift_reg[8]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:8) -> l:88,c:16  
+                                                                                                                  
+shift_reg[9]          6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:9) -> l:88,c:16  
+                                                                                                                  
+shift_reg[10]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:10)              
+                                                                                                                  
+shift_reg[11]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:11)              
+                                                                                                                  
+shift_reg[12]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:12)              
+                                                                                                                  
+shift_reg[13]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:13)              
+                                                                                                                  
+shift_reg[14]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:14)              
+                                                                                                                  
+shift_reg[15]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:15)              
+                                                                                                                  
+shift_reg[16]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:16)              
+                                                                                                                  
+shift_reg[17]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:17)              
+                                                                                                                  
+shift_reg[18]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:18)              
+                                                                                                                  
+shift_reg[19]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:19)              
+                                                                                                                  
+shift_reg[20]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:20)              
+                                                                                                                  
+shift_reg[21]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:21)              
+                                                                                                                  
+shift_reg[22]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:22)              
+                                                                                                                  
+shift_reg[23]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:23)              
+                                                                                                                  
+shift_reg[24]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:24)              
+                                                                                                                  
+shift_reg[25]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:25)              
+                                                                                                                  
+shift_reg[26]         6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:54,c:7->i:26)              
+                                                                                                                  
+shift_reg_H[0]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:0)               
+                                                                                                                  
+shift_reg_H[1]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:1)               
+                                                                                                                  
+shift_reg_H[2]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:2)               
+                                                                                                                  
+shift_reg_H[3]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:3)               
+                                                                                                                  
+shift_reg_H[4]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:4)               
+                                                                                                                  
+shift_reg_H[5]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:5)               
+                                                                                                                  
+shift_reg_H[6]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:6)               
+                                                                                                                  
+shift_reg_H[7]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:7)               
+                                                                                                                  
+shift_reg_H[8]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:8)               
+                                                                                                                  
+shift_reg_H[9]        6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:9)               
+                                                                                                                  
+shift_reg_H[10]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:10)              
+                                                                                                                  
+shift_reg_H[11]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:11)              
+                                                                                                                  
+shift_reg_H[12]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:12)              
+                                                                                                                  
+shift_reg_H[13]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:13)              
+                                                                                                                  
+shift_reg_H[14]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:14)              
+                                                                                                                  
+shift_reg_H[15]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:15)              
+                                                                                                                  
+shift_reg_H[16]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:16)              
+                                                                                                                  
+shift_reg_H[17]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:17)              
+                                                                                                                  
+shift_reg_H[18]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:18)              
+                                                                                                                  
+shift_reg_H[19]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:19)              
+                                                                                                                  
+shift_reg_H[20]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:20)              
+                                                                                                                  
+shift_reg_H[21]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:21)              
+                                                                                                                  
+shift_reg_H[22]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:22)              
+                                                                                                                  
+shift_reg_H[23]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:23)              
+                                                                                                                  
+shift_reg_H[24]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:24)              
+                                                                                                                  
+shift_reg_H[25]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:25)              
+                                                                                                                  
+shift_reg_H[26]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:26)              
+                                                                                                                  
+shift_reg_H[27]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:27)              
+                                                                                                                  
+shift_reg_H[28]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:28)              
+                                                                                                                  
+shift_reg_H[29]       6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.cpp,l:61,c:7->i:29)              
+                                                                                                                  
+[1].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[1].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[0].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[1]                   6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[1]                   6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[2].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[0].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[4].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[5].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[6].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[7].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[8].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[9].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[10].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[11].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[12].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[13].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[14].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[15].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[16].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[17].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[18].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[19].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[20].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[21].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[22].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[23].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[25].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[2].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[3].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[4].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[6].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[7].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[8].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[9].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[11].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[12].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[13].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[14].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[15].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[16].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[17].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[18].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[19].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[21].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[22].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[23].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[24].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[26].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[27].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[28].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[29].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[3].shift_reg         6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[24].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[26].shift_reg        6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5                         
+                                                                                                                  
+[5].shift_reg_H       6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[10].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[20].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[25].shift_reg_H      6 (5:FALSE)      --              FALSE  ../SobelFilter.cpp,l:105,c:5                        
+                                                                                                                  
+[1]                   7 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[1]                   7 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[2]                   8 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[2]                   8 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[4]                   9 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[4]                   9 (5:TRUE)       --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[5]                   10 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[5]                   10 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[6]                   11 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[6]                   11 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[7]                   12 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[7]                   12 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[8]                   13 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[8]                   13 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[9]                   14 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[9]                   14 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[10]                  15 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[10]                  15 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[11]                  16 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[11]                  16 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[12]                  17 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[12]                  17 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[13]                  18 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[13]                  18 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[14]                  19 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[14]                  19 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[15]                  20 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[15]                  20 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[16]                  21 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[16]                  21 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[17]                  22 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[17]                  22 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[18]                  23 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[18]                  23 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[19]                  24 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[19]                  24 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[20]                  25 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[20]                  25 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[21]                  26 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[21]                  26 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[22]                  27 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[22]                  27 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[23]                  28 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[23]                  28 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[25]                  29 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+[25]                  29 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+[26]                  30 (5:TRUE)      --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:39            
+                                                                                                                  
+i_rgb.m_busy_req_0.g  31 (6:FALSE)     --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+[26]                  32 (7:FALSE)     --              FALSE  ../SobelFilter.cpp,l:86,c:5 -> l:89,c:23            
+                                                                                                                  
+i_rgb                 33 (8:TRUE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+do_filter::get        33 (8:TRUE)      --              FALSE  ../SobelFilter.cpp,l:38,c:19 mapped                 
+                                                                                                                  
+[2]                   34 (9:FALSE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[2]                   34 (9:FALSE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+i_rgb.data.get::nb_g  34 (9:FALSE)     --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_req_0.g  34 (9:FALSE)     --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+shift_reg             34 (9:FALSE)     --              FALSE  ../SobelFilter.cpp,l:54,c:7 -> l:94,c:16            
+                                                                                                                  
+[3]                   35 (10:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[3]                   35 (10:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[4]                   36 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[4]                   36 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[6]                   37 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[7]                   38 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[8]                   39 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[8]                   39 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[9]                   40 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[11]                  41 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[11]                  41 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[12]                  42 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[12]                  42 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[13]                  43 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[13]                  43 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[14]                  44 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[14]                  44 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[15]                  45 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[15]                  45 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[16]                  46 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[16]                  46 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[17]                  47 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[17]                  47 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[18]                  48 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[18]                  48 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[19]                  49 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[19]                  49 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[21]                  50 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[22]                  51 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[22]                  51 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[23]                  52 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[24]                  53 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[26]                  54 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[26]                  54 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[27]                  55 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[27]                  55 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+[28]                  56 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[28]                  56 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+                      57 (11:TRUE)     --              FALSE  f:../SobelFilter.cpp,l:100,c:21                     
+                                                                                                                  
+[29]                  58 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:43          
+                                                                                                                  
+[29]                  58 (11:TRUE)     --              FALSE  ../SobelFilter.cpp,l:105,c:5 -> l:108,c:25          
+                                                                                                                  
+                      60 (12:FALSE)    --              FALSE  f:../SobelFilter.cpp,l:111,c:23                     
+                                                                                                                  
+o_avg.data.put::nb_p  60 (12:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg                 60 (12:FALSE)    --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_req.m_trig_r  60 (12:FALSE)    --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg                 62 (14:TRUE)     --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+do_filter::put        62 (14:TRUE)     --              FALSE  ../SobelFilter.cpp,l:38,c:19 mapped                 
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_gen_stalling                                                                         
+-----------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.vld.o_avg.gen_  4 (3:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.busy.o_avg.gen  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.gen_stalling    5 (4:FALSE)      --              FALSE  ../SobelFilter.h,l:19,c:46                          
+                                                                                                                  
+o_avg.m_stalling.o_a  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : o_avg_gen_unacked_req                                                                      
+--------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+o_avg.m_unacked_req.  4 (3:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_stalling.o_a  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+o_avg.m_unacked_req.  8 (7:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:19,c:46->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_do_reg_vld                                                                       
+-------------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.m_vld_reg.i_rg  5 (4:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb                 7 (6:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_vld_reg.i_rg  8 (7:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_interna  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.vld.i_rgb.gen_  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_do_reg_vld  9 (8:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_vld_reg.i_rg  9 (8:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
+Scheduler report for : i_rgb_gen_busy                                                                             
+-------------------------------------                                                                                            
+                                                                                                                  
+Op                    SID(BB;Clocked)  Pipeline Stage  IS     SRCLOC                                              
+--                    ---------------  --------------  --     ------                                              
+                                                                                                                  
+i_rgb.vld.i_rgb.gen_  4 (3:TRUE)       --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_unvalidated_  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_req_0.i  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_inva  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.gen_busy        6 (5:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.gen_busy        6 (5:FALSE)      --              FALSE  ../SobelFilter.h,l:18,c:45                          
+                                                                                                                  
+i_rgb.m_data_is_inva  6 (5:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_busy_interna  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.busy.i_rgb.gen  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_vali  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+i_rgb.m_data_is_inva  7 (6:FALSE)      --              FALSE  @(f:../SobelFilter.h,l:18,c:45->f:/usr/cadtool/cad  
+                                                                                                                  
+                                                                                                                  
